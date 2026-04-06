@@ -36,29 +36,28 @@ cta:
 ######################## raw material #######################
 material:
   enable : true
-  title : "Ingredients Of Our Products"
-  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dol."
+  title : "Why Choose Our Party Supplies"
+  subtitle : "We offer premium quality party decoration gifts and supplies trusted by thousands of event organizers across Hyderabad and beyond."
   materialItem:
     # material item loop
-    - title : "Matcha Seeds"
+    - title : "Premium Quality"
       image : "images/material/material-1.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "Durable, vibrant, party-grade materials that bring your celebrations to life with style and elegance."
       
     # material item loop
-    - title : "Aloe Vera"
+    - title : "Bulk Orders"
       image : "images/material/material-2.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "Special pricing available for large event orders. Get the best rates for corporate events, weddings, and celebrations."
       
     # material item loop
-    - title : "Turmeric"
+    - title : "Same Day Delivery"
       image : "images/material/material-3.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "Fast, reliable delivery available across Hyderabad. Order today and decorate tomorrow for your special event."
       
     # material item loop
-    - title : "Tulshi leaf"
+    - title : "500+ Products"
       image : "images/material/material-4.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "Explore our extensive collection including balloons, decorations, themed party kits, and tableware solutions."
 
 ########################### Advantage #########################
 advantage:
