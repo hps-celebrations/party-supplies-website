@@ -62,24 +62,37 @@ jobs:
           path: party-supplies-website/public/
 
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
           name: hugo-build
-          path: public
+          path: ./site-build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
-          keep_files: false
-          allow_empty_commit: true
-          commit_message: "Deploy site to GitHub Pages from workflow"
+      - name: Prepare deployment
+        run: |
+          # Remove old site files but keep .git and important files
+          find . -maxdepth 1 -type f \( -name "*.html" -o -name "*.xml" \) -delete
+          find . -maxdepth 1 -type d \( -name "js" -o -name "css" -o -name "images" -o -name "products" -o -name "blog" -o -name "contact" -o -name "categories" -o -name "tags" -o -name "plugins" -o -name "scss" -o -name "faq" -o -name "terms-conditions" \) -exec rm -rf {} + 2>/dev/null || true
+          # Copy new site files to root
+          cp -r ./site-build/* ./
+          rm -rf ./site-build
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push
+        run: |
+          git add -A
+          git commit -m "Deploy Hugo site to GitHub Pages" || echo "No changes to commit"
+          git push origin main
