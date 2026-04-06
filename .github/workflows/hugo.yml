@@ -1,0 +1,75 @@
+name: Deploy Hugo Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v4
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Cache Hugo resources
+        uses: actions/cache@v3
+        with:
+          path: /home/runner/work/party-supplies-website/party-supplies-website/resources
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: Download Hugo modules
+        working-directory: ./party-supplies-website
+        run: hugo mod get -u
+
+      - name: Build Hugo site
+        working-directory: ./party-supplies-website
+        run: hugo --minify --gc
+
+      - name: Upload artifact for deployment
+        uses: actions/upload-artifact@v3
+        with:
+          name: hugo-build
+          path: party-supplies-website/public/
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: hugo-build
+          path: public
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: ''
+          user_name: 'GitHub Actions'
+          user_email: 'github-actions@github.com'
