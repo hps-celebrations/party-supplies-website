@@ -1,0 +1,10 @@
+# Hugo build output
+party-supplies-website/public/
+party-supplies-website/resources/
+party-supplies-website/.hugo_build.lock
+party-supplies-website/hugo_stats.json
+
+# Editor files
+*.swp
+*.swo
+.DS_Store
