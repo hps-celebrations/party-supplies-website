@@ -38,13 +38,22 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
+      - name: Verify site directory
+        run: |
+          pwd
+          ls -la
+          ls -la party-supplies-website
+          ls -la party-supplies-website | grep hugo.toml || true
+
       - name: Download Hugo modules
-        working-directory: ./party-supplies-website
-        run: hugo mod get -u
+        run: |
+          cd party-supplies-website
+          hugo mod get -u
 
       - name: Build Hugo site
-        working-directory: ./party-supplies-website
-        run: hugo --minify --gc
+        run: |
+          cd party-supplies-website
+          hugo --minify --gc
 
       - name: Upload artifact for deployment
         uses: actions/upload-artifact@v4
