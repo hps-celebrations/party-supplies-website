@@ -14,27 +14,24 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.1.7
         with:
           submodules: true
           fetch-depth: 0
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: 'latest'
-          extended: true
+      - name: Setup Hugo (Extended)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y hugo
+          hugo version
 
       - name: Cache Hugo resources
-        uses: actions/cache@v4
+        uses: actions/cache@v4.1.0
         with:
           path: /home/runner/work/party-supplies-website/party-supplies-website/resources
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
@@ -50,7 +47,7 @@ jobs:
         run: hugo --minify --gc
 
       - name: Upload artifact for deployment
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4.4.0
         with:
           name: hugo-build
           path: party-supplies-website/public/
@@ -63,16 +60,13 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v4.1.8
         with:
           name: hugo-build
           path: public
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          cname: ''
-          user_name: 'GitHub Actions'
-          user_email: 'github-actions@github.com'
