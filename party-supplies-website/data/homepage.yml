@@ -62,25 +62,24 @@ material:
 ########################### Advantage #########################
 advantage:
   enable : true
-  title : "Advantages Of Using <br> Our Product"
-  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  title : "Why Hyderabad Loves Us"
+  subtitle : "Trusted by hundreds of families and event planners for creating unforgettable celebrations across Hyderabad"
   image : "images/advantage.png"
   advantageList:
     # advantage list loop
-    - listItem : "Extremely lightweight"
-    - listItem : "Excellent breathability"
-    - listItem : "Can increase Cell activation"
-    - listItem : "Glowing Skin In 7 Days"
-    - listItem : "Increasing Glow Of Face"
-    - listItem : "More Beautiful Face Skin"
+    - listItem : "1000+ happy customers across Hyderabad"
+    - listItem : "Trusted for birthdays, weddings & corporate events"
+    - listItem : "Eco-friendly and child-safe materials"
+    - listItem : "Easy bulk ordering with WhatsApp support"
+    - listItem : "Fast delivery across all Hyderabad areas"
+    - listItem : "Competitive pricing with no compromise on quality"
 
 
 ######################## Promo Video ##########################
 video:
   enable : true
-  title : "How To Use This Product?"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
+  title : "How To Order From Us"
+  content : "Ordering is simple! Browse our collection, add items to your cart, or WhatsApp us directly with your requirements. We deliver across Hyderabad within 24 hours. Bulk orders for events get special pricing and dedicated support."
   videoThumb : "images/video-thumb.jpg"
   videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
@@ -95,32 +94,32 @@ products:
 ########################## Testimonial ########################
 testimonial:
   enable : true
-  title : "What People Are Saying <br> About Our Product"
+  title : "What Our Happy Customers Say"
   testimonialItem:
     # testimonial item loop
-    - name : "Angelo Perara"
+    - name : "Priya Sharma"
       image : "images/clients/client-1.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      designation : "Birthday Mom, Jubilee Hills"
+      content : "Amazing balloons and decorations! Made my daughter's birthday party absolutely magical. The quality is outstanding and delivery was super fast!"
       rating : "five" # rating star, one to five
       
     # testimonial item loop
-    - name : "Riya Ventila"
+    - name : "Rajesh Verma"
       image : "images/clients/client-2.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "three" # rating star, one to five
+      designation : "Event Planner, Banjara Hills"
+      content : "We regularly order bulk party supplies from HPS for corporate events. Their customer service and competitive pricing are unbeatable. Highly recommended!"
+      rating : "five" # rating star, one to five
       
     # testimonial item loop
-    - name : "john Doe"
+    - name : "Anjali Nair"
       image : "images/clients/client-3.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      designation : "Wedding Organizer, Gachibowli"
+      content : "Ordered return gifts and decorations for a wedding of 100+ guests. The eco-friendly materials impressed everyone. Excellent service and on-time delivery!"
       rating : "five" # rating star, one to five
       
     # testimonial item loop
-    - name : "Riya Ventila"
+    - name : "Vikram Singh"
       image : "images/clients/client-2.jpg" # size 100px*100px
-      designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "four" # rating star, one to five
+      designation : "Corporate Event Manager, Hitech City"
+      content : "Their themed party kits are fantastic! We ordered for our office celebration and everyone loved the quality and presentation. Best party supplies in Hyderabad!"
+      rating : "five" # rating star, one to five
