@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Premium Party Decoration & Gift Supplies"
   content : "Celebrate your special moments with our wide range of party supplies, decoration gifts, and party essentials. Make every celebration memorable!"
-  image : "images/banner.jpg"
+  image : "/images/banner.jpg"
   # button
   button:
     enable : true

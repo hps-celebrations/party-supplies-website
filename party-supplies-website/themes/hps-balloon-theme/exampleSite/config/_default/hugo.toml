@@ -1,8 +1,8 @@
 ######################## default configuration ####################
-baseURL = "https://hps-celebrations.github.io/party-supplies-website/"
-languageCode = "en-in"
-title = "Hyderabad Party Supplies"
-theme = "hps-balloon-theme"
+baseURL = "/"
+languageCode = "en"
+title = "Hargo | Hugo Ecommerce Site"
+theme = "hargo-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
 # post pagination
@@ -87,13 +87,11 @@ link = "plugins/google-map/gmap.js"
 
 #################### default parameters ################################
 [params]
-logo = ""
-logo_text = "HPS"
-logo_subtext = "Hyderabad Party Supplies"
+logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "Premium party supplies and decorations in Hyderabad. Celebrate your special moments with our wide range of party essentials."
-author = "Hyderabad Party Supplies"
+description = "This is meta description"
+author = "Themefisher"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 mapLatitude = "51.5223477"
@@ -102,14 +100,14 @@ mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalyticsID = "" # Your ID
 # Contact Information
-mobile = "+91-9XXXXXXXXX"
-email = "contact@hyderabadpartysupplies.com"
-location = "Hyderabad, Telangana, India"
+mobile = "0124857985320"
+email = "demo@email.com"
+location = "Dhaka, Bangladedsh"
 # copyright
-copyright = "| Copyright &copy; 2025 Hyderabad Party Supplies. All Rights Reserved. |"
+copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
 # Snipcart Credentials
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
-currencySymbol = "₹"
+currencySymbol = "$"
 
 # Preloader
 [params.preloader]
