@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "https://anooppalavai-cmd.github.io/party-supplies-website/"
 languageCode = "en-in"
 title = "Hyderabad Party Supplies"
 theme = "hargo"

@@ -1,9 +1,8 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Best Beauty Cream For Your Skin"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed dia"
+  title : "Premium Party Decoration & Gift Supplies"
+  content : "Celebrate your special moments with our wide range of party supplies, decoration gifts, and party essentials. Make every celebration memorable!"
   image : "images/banner.png"
   # button
   button:
@@ -18,18 +17,16 @@ banner:
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
+  title : "About Our Party Supplies"
+  content : "We specialize in premium party decoration gifts and supplies for all occasions. From birthdays to weddings, corporate events to celebrations, our curated collection offers everything you need to create an unforgettable experience. Quality products, competitive pricing, and exceptional service!"
   image : "images/about.png"
 
 
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Buy one Get One Free Taba Cream"
-  content : "Available for limited time only. Grab one while you still can!"
+  title : "Exclusive Offers on Party Decoration Gifts"
+  content : "Limited time special discounts on our premium party supplies. Get everything you need to make your celebration spectacular!"
   image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
   button:
