@@ -7,30 +7,39 @@ description : "this is a meta description"
 
 ### Terms and Condition
 
-Please read this terms and conditions stated below, which outline a lot of legal goodies, but the bottom line is it’s our aim to always take care of both of us, as a customer, or as a seller. We’ve included many of these terms to legally protect ourselves, but if you have an issue, always feel free to email us at contact@themefisher.com and we’ll do our best to resolve it in a fair and timely way .
+Please read the terms and conditions stated below. Our aim is to always take care of both our customers and business. We have included these terms to protect both parties. If you have any issues, please feel free to email us at contact@hyderabadpartysupplies.com and we'll do our best to resolve it in a fair and timely way.
 
-### Product Buy & delivery policy
+### Product Purchase & Delivery Policy
 
-1)All payments are processed securely through PayPal or Stripe. Themefisher does not directly process payments through the website. So any kind of Problem if you face Themefisher will Not Take any responsibility.
+1) All payments are processed securely through PayPal, Stripe, or WhatsApp payment options. Hyderabad Party Supplies (HPS) ensures secure transaction processing. We deliver quality party supplies across Hyderabad within 24 hours of confirmed order placement.
 
-### Product Buy & delivery policy
+2) Orders are prepared with care and delivered in good condition. We take full responsibility for product quality and timely delivery.
 
-Please read this terms and conditions stated below, which outline a lot of legal goodies, but the bottom line is it’s our aim to always take care of both of us, as a customer, or as a seller. We’ve included many of these terms to legally protect ourselves, but if you have an issue, always feel free to email us at contact@themefisher.com and we’ll do our best to resolve it in a fair and timely way .
+3) For bulk orders and corporate events, please contact us directly at contact@hyderabadpartysupplies.com for special pricing and customized delivery arrangements.
 
-### Refund Policy
+### Return & Refund Policy
 
-1) Since Themefisher is offering non-tangible and irrevocable digital products, we do NOT issue refunds after a purchase is made. If there is a problem with one of the digital download products or if you experience any difficulty with the download, we will fix the problem.
-2) You have 24 hours to inspect your purchase and to determine if it does not meet with the expectations laid forth by The Themefisher. In the event that you wish to receive a refund, Themefisher will issue you a refund and ask you to specify how the product failed to live up to expectations.
-3) When you make a qualifying return, We’ll credit the full amount, less the handling charges. Refunds are generally processed within 3–5 business days after we receive your claim and find it eligible for a return. Refunds are applied to the original payment option.
+1) Products must be inspected upon delivery. If any items are damaged or defective, please report within 24 hours with photos for replacement or refund.
 
-### Support Policy
-1) Since Themefisher is offering non-tangible and irrevocable digital products, we do NOT issue refunds after a purchase is made. If there is a problem with one of the digital download products or if you experience any difficulty with the download, we will fix the problem.
-2) You have 24 hours to inspect your purchase and to determine if it does not meet with the expectations laid forth by The Themefisher. In the event that you wish to receive a refund, Themefisher will issue you a refund and ask you to specify how the product failed to live up to expectations.
-3) When you make a qualifying return, We’ll credit the full amount, less the handling charges. Refunds are generally processed within 3–5 business days after we receive your claim and find it eligible for a return. Refunds are applied to the original payment option.
+2) Returns are accepted within 7 days of delivery if items are unopened and in original condition. Bulk orders and themed party kits may have different return policies - please check with our team.
 
-### Why We Support:
+3) Refunds are processed within 5-7 business days after we verify the return claim and receive the items back in acceptable condition. Refunds are applied to the original payment method.
 
-1. Support covers getting up and help in theme setup
-2. Help using features and theme options
-3. Bug fixes – if you discovered a bug in the theme/Template we will fix it
-4. Functionality which does not work as advertised
+4) Custom orders and personalized items cannot be returned unless there is a defect in manufacturing.
+
+### Customer Support
+
+1) We provide support for order placement, customization requests, and delivery tracking.
+
+2) Our team is available to help with bulk order requirements, themed party kit selections, and delivery schedule coordination.
+
+3) For product issues or quality concerns, we will work with you to resolve the matter to your satisfaction.
+
+4) Emergency orders and same-day delivery arrangements are available - contact us directly for these requests.
+
+### Our Commitment
+
+1) We stand behind the quality of all our party supplies and decorations.
+2) We offer competitive pricing and special discounts for bulk orders.
+3) We prioritize customer satisfaction and timely delivery across Hyderabad.
+4) Your privacy and payment information are handled securely and confidentially.

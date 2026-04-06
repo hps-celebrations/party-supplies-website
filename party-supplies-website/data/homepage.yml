@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Premium Party Decoration & Gift Supplies"
   content : "Celebrate your special moments with our wide range of party supplies, decoration gifts, and party essentials. Make every celebration memorable!"
-  image : "images/banner.png"
+  image : "images/banner.jpg"
   # button
   button:
     enable : true
@@ -19,7 +19,7 @@ about:
   enable : true
   title : "About Our Party Supplies"
   content : "We specialize in premium party decoration gifts and supplies for all occasions. From birthdays to weddings, corporate events to celebrations, our curated collection offers everything you need to create an unforgettable experience. Quality products, competitive pricing, and exceptional service!"
-  image : "images/about.png"
+  image : "images/about.jpg"
 
 
 ###################### Call to action ########################
@@ -27,7 +27,7 @@ cta:
   enable : true
   title : "Exclusive Offers on Party Decoration Gifts"
   content : "Limited time special discounts on our premium party supplies. Get everything you need to make your celebration spectacular!"
-  image : "images/cta.png"
+  image : "images/cta.jpg"
   overlayImage : "images/cta-overlay.png"
   button:
     label : "All Products"
@@ -41,22 +41,22 @@ material:
   materialItem:
     # material item loop
     - title : "Premium Quality"
-      image : "images/material/material-1.png"
+      image : "images/material/material-1.jpg"
       content : "Durable, vibrant, party-grade materials that bring your celebrations to life with style and elegance."
       
     # material item loop
     - title : "Bulk Orders"
-      image : "images/material/material-2.png"
+      image : "images/material/material-2.jpg"
       content : "Special pricing available for large event orders. Get the best rates for corporate events, weddings, and celebrations."
       
     # material item loop
     - title : "Same Day Delivery"
-      image : "images/material/material-3.png"
+      image : "images/material/material-3.jpg"
       content : "Fast, reliable delivery available across Hyderabad. Order today and decorate tomorrow for your special event."
       
     # material item loop
     - title : "500+ Products"
-      image : "images/material/material-4.png"
+      image : "images/material/material-4.jpg"
       content : "Explore our extensive collection including balloons, decorations, themed party kits, and tableware solutions."
 
 ########################### Advantage #########################

@@ -87,7 +87,9 @@ link = "plugins/google-map/gmap.js"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = ""
+logo_text = "HPS"
+logo_subtext = "Hyderabad Party Supplies"
 home = "Home"
 # Meta data
 description = "Premium party supplies and decorations in Hyderabad. Celebrate your special moments with our wide range of party essentials."
