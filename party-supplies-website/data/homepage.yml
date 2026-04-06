@@ -62,17 +62,17 @@ material:
 ########################### Advantage #########################
 advantage:
   enable : true
-  title : "Why Hyderabad Loves Us"
-  subtitle : "Trusted by hundreds of families and event planners for creating unforgettable celebrations across Hyderabad"
+  title : "Why Choose Our Party Supplies"
+  subtitle : "We deliver premium party supplies and decorations trusted by Hyderabad's best celebrations"
   image : "images/advantage.png"
   advantageList:
     # advantage list loop
-    - listItem : "1000+ happy customers across Hyderabad"
-    - listItem : "Trusted for birthdays, weddings & corporate events"
-    - listItem : "Eco-friendly and child-safe materials"
-    - listItem : "Easy bulk ordering with WhatsApp support"
-    - listItem : "Fast delivery across all Hyderabad areas"
-    - listItem : "Competitive pricing with no compromise on quality"
+    - listItem : "Premium Quality Decorations: Vibrant, durable, and designed for memorable celebrations"
+    - listItem : "Complete Party Solutions: Balloons, lights, tableware, return gifts, and themed kits all in one place"
+    - listItem : "Eco-Friendly Options: Sustainable, child-safe materials for responsible celebrations"
+    - listItem : "Bulk Order Discounts: Special pricing for corporate events, weddings, and large gatherings"
+    - listItem : "Fast & Reliable Delivery: Same-day delivery available across Hyderabad"
+    - listItem : "Expert Support: Our team helps you plan the perfect celebration with personalized recommendations"
 
 
 ######################## Promo Video ##########################

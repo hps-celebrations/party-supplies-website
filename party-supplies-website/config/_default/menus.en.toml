@@ -6,30 +6,20 @@ URL = "products/"
 weight = 1
 
 [[main]]
-name = "Blog"
-URL = "blog/"
-weight = 2
-
-[[main]]
 name = "FAQ"
 URL = "faq/"
-weight = 3
+weight = 2
 
 [[main]]
 name = "Contact"
 URL = "contact/"
-weight = 4
+weight = 3
 
 ############# footer menu #############
 [[footer]]
 name = "Products"
 URL = "products/"
 weight = 1
-
-[[footer]]
-name = "Blog"
-URL = "blog/"
-weight = 2
 
 [[footer]]
 name = "FAQ"
