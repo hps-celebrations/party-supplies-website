@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4.1.7
+        uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
@@ -31,7 +31,7 @@ jobs:
           hugo version
 
       - name: Cache Hugo resources
-        uses: actions/cache@v4.1.0
+        uses: actions/cache@v4
         with:
           path: /home/runner/work/party-supplies-website/party-supplies-website/resources
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
@@ -47,7 +47,7 @@ jobs:
         run: hugo --minify --gc
 
       - name: Upload artifact for deployment
-        uses: actions/upload-artifact@v4.4.0
+        uses: actions/upload-artifact@v4
         with:
           name: hugo-build
           path: party-supplies-website/public/
@@ -60,7 +60,7 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v4.1.8
+        uses: actions/download-artifact@v4
         with:
           name: hugo-build
           path: public
