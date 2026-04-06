@@ -25,13 +25,13 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v4
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
 
       - name: Cache Hugo resources
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: /home/runner/work/party-supplies-website/party-supplies-website/resources
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
@@ -47,7 +47,7 @@ jobs:
         run: hugo --minify --gc
 
       - name: Upload artifact for deployment
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: hugo-build
           path: party-supplies-website/public/
@@ -60,7 +60,7 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: hugo-build
           path: public
